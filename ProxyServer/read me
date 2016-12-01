@@ -1,0 +1,7 @@
+Run command
+g++ proxy.cpp -lssl -lcrypto -lpthread
+
+Then from terminal use 
+./a.out <port_no>
+
+Specify 127.0.0.1 and <port_no>  in browser's http proxy then hit some url.
